@@ -26,7 +26,7 @@ class MySpider(scrapy.Spider):
                 "Model": vehicle.xpath('//*[@id="list-detail"]/div[2]/div[1]/div[1]/div/div/h1/text()').get(),
                 "Price": vehicle.xpath('//*[@id="list-detail"]/div[2]/div[1]/div[2]/div/div[1]/div/div[1]/p[2]/span[2]/text()').get()
 
-            }
+                    }
 
 
 
